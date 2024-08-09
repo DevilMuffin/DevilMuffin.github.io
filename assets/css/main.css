@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #000;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.aboveEverythingElse {
+    z-index: 10;
+}
+
+#mainDiv {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg {
+    width: 50px;
+    height: 50px;
+}
+
+#svgBox {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
