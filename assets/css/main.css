@@ -27,16 +27,13 @@ h4 {
     margin-top: 40px;
 }
 
-.aboveEverythingElse {
-    z-index: 10;
-}
-
 #mainDiv {
     width: 600px;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .svg {
@@ -54,10 +51,12 @@ h4 {
     width: 300px;
     height: 100px;
     gap: 20px;
+    z-index: 25;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 23;
 }
